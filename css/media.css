@@ -1,0 +1,88 @@
+@media screen and (max-width: 732px) {
+    h2 {
+        font-size: 20px;
+    }
+    
+    .container {
+        flex-wrap: wrap-reverse;
+        max-width: 432px;
+        margin: -60px auto 60px;
+    }
+
+    .ContMan {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 10px auto 0;
+    }
+
+    .info {
+        text-align: center;
+    }
+
+    .list {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .links {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .education__list {
+        flex-wrap: wrap;
+        width: 280px;
+        margin: 0 auto;
+    }
+
+    .contacts {
+        flex-wrap: wrap;
+    }
+
+    .cont__link {
+        margin-bottom: 16px;
+    }
+
+    .cont__link:last-child{
+        margin-bottom: 0px;
+    }
+
+    .softCnt {
+        flex-wrap: wrap;
+    }
+
+    .soft__list {
+        margin: 0 auto 20px;
+    }
+
+    .soft__list:last-child {
+        margin-bottom: 0px;
+    }
+
+    .interests__list {
+        display: block;
+        width: 100px;
+    }
+
+    .interests__item {
+        margin: 0 auto;
+    }
+
+    .portfolio__list {
+        flex-wrap: wrap;
+        max-width: 300px;
+    }
+
+    .portfolio__item {
+        margin: 0 auto 16px;
+    }
+
+    .contactCnt {
+        flex-wrap: wrap;
+    }
+
+    .contact__form {
+        margin-bottom: 16px;
+    }
+}

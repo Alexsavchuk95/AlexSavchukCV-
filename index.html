@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/keyframes.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <title>Alex_Savchuk</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!--BUTTON_MOBILE_NAVIGATION-->
+            <div id="menu-togle" class="menu-icon">
+                <div class="menu-icon-line"></div>
+            </div>
+            <!--==========================-->
+            <!--MOBILE_NAVIGATION-->
+            <div>
+            <ul id="mobile-nav" class="list-mobile">
+                <li class="item-mobile">
+                    <div class="img__cnt">
+                        <img class="mobile__img" src="./assets/icons/home.png" alt="">
+                    </div>
+                    <a href="#home" class="link-mobile">Home</a>
+                </li>
+                <li class="item-mobile">
+                    <div class="img__cnt">
+                        <img class="mobile__img" src="./assets/icons/graduated.png" alt="">
+                    </div>
+                    <a href="#educ" class="link-mobile">Education</a>
+                </li>
+                <li class="item-mobile">
+                    <div class="img__cnt">
+                        <img class="mobile__img" src="./assets/icons/skill.png" alt="">
+                    </div>
+                    <a href="#skills" class="link-mobile">Skills</a>
+                </li>
+                <li class="item-mobile">
+                    <div class="img__cnt">
+                        <img class="mobile__img" src="./assets/icons/soft-skills.png" alt="">
+                    </div>
+                    <a href="#soft" class="link-mobile">Soft skills</a>
+                </li>
+                <li class="item-mobile">
+                    <div class="img__cnt">
+                        <img class="mobile__img" src="./assets/icons/interests.png" alt="">
+                    </div>
+                    <a href="#int" class="link-mobile">Interests</a>
+                </li>
+                <li class="item-mobile">
+                    <div class="img__cnt">
+                        <img class="mobile__img" src="./assets/icons/user-experience.png" alt="">
+                    </div>
+                    <a href="#exp" class="link-mobile">Experience</a>
+                </li>
+                <li class="item-mobile">
+                    <div class="img__cnt">
+                        <img class="mobile__img" src="./assets/icons/portfolio.png" alt="">
+                    </div>
+                    <a href="#por" class="link-mobile">Portfolio</a>
+                </li>
+                <li class="item-mobile">
+                    <div class="img__cnt">
+                        <img class="mobile__img" src="./assets/icons/phone.png" alt="">
+                    </div>
+                    <a href="#cont" class="link-mobile">Contact me</a>
+                </li>
+            </ul>
+            </div>
+            <!--==========================-->
+        </nav>
+    </header>
+    <!--======= CONTAINER WITH ME AND MY SHORT INFO=========== -->
+    <section class="info__wrapper" id="home">
+        <div class="container">
+            <div class="info">
+                <h1>ALex Savchuk</h1>
+                <p class="title__text">Front end developer</p>
+                <ul class="list">
+                    <li class="list__item">
+                        <img class="icons" src="./assets/icons/email.png" alt="email">
+                        <p>savchukalex57@gmail.com</p>
+                    </li>
+                    <li class="list__item">
+                        <img class="icons" src="./assets/icons/skype.png" alt="skype">
+                        <p>live:.cid.a864230f359068eb</p>
+                    </li>
+                    <li class="list__item">
+                        <img class="icons" src="./assets/icons/phone.png" alt="phone">
+                        <p>+38 (093) 576 91 42</p>
+                    </li>
+                    <li class="list__item">
+                        <img class="icons" src="./assets/icons/pin.png" alt="loc">
+                        <p>Luteranska 27/29</p>
+                    </li>
+                </ul>
+                <!--   ===========LIST WITH LINKS__ICONS============ -->
+                <ul class="links">
+                    <li class="links__item">
+                        <a href="https://www.linkedin.com/in/алексей-савчук-8b332b160/" target="_blank">
+                            <img class="links__icons" src="./assets/icons/linkedin .png" alt="li">
+                        </a>
+                    </li>
+                    <li class="links__item">
+                        <a href="https://github.com/Alexsavchuk95" target="_blank">
+                            <img class="links__icons" src="./assets/icons/github.png" alt="git">
+                        </a>
+                    </li>
+                    <li class="links__item">
+                        <a href="https://www.facebook.com/profile.php?id=100006672106806" target="_blank">
+                            <img class="links__icons" src="./assets/icons/facebook.png" alt="face">
+                        </a>
+                    </li>
+                    <li class="links__item">
+                        <a href="https://www.instagram.com/alex_savshuk/?hl=ru" target="_blank">
+                            <img class="links__icons" src="./assets/icons/instagram.png" alt="inst">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="ContMan"></div>
+        </div>
+        <div class="about">
+            <p class="about__text">My name is Alexey and I am front-end developer based in Kiev.My objective is to work
+                in profesional team and show good results.
+                I am eager to learn more and develop
+                further to become a pro in IT field.</p>
+        </div>
+        <div class="contacts">
+            <a class="cont__link" href="https://drive.google.com/drive/u/0/folders/1vm1Xxf0nCRvZhhJ9fUzzldm8Ikz3Vbqc"
+                target="blank">Download my CV</a>
+            <a class="cont__link" href="#cont">Contact me</a>
+        </div>
+    </section>
+    <!-- ==============SECTION__EDUCATION=========== -->
+    <section class="education" id="educ">
+        <div class="title">
+            <h2 class="anim-items anim__show anim-no-hide">Education</h2>
+        </div>
+        <div class="cnt__img">
+            <img style="width: 60px;" src="./assets/icons/graduated.png" alt="ed">
+        </div>
+        <div class="edCnt">
+            <ul class="education__list">
+                <li class="education__item anim-items items-show anim-no-hide">
+                    <p class="info__text">Lyceum of International Relations No. 51 "</p>
+                </li>
+                <li class="education__item anim-items items-show anim-no-hide">
+                    <p class="info__text">Nemeshaevsky agrotechnical college "</p>
+                </li>
+                <li class="education__item anim-items items-show anim-no-hide">
+                    <p class="info__text">ZNAU (Zhytomyr National Agroecological University) "</p>
+                </li>
+                <li class="education__item anim-items items-show anim-no-hide">
+                    <p class="info__text">GOIT school Front-end developer "</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- ==============SECTION__SKILLS=========== -->
+    <section class="skills" id="skills">
+        <div class="title">
+            <h2 class="anim-items anim__show anim-no-hide">Skills</h2>
+        </div>
+        <div class="cnt__img">
+            <img style="width: 60px;" src="./assets/icons/skill.png" alt="ed">
+        </div>
+        <ul class="skills__list anim-items anim__show anim-no-hide">
+            <li class="skills__item">
+                <div class="circle">
+                    <div class="dotted"></div>
+                </div>
+                <p class="skills__text">HTML5/CSS</p>
+            </li>
+            <li class="skills__item">
+                <div class="circle">
+                    <div class="dotted"></div>
+                </div>
+                <p class="skills__text">React</p>
+            </li>
+            <li class="skills__item">
+                <div class="circle">
+                    <div class="dotted"></div>
+                </div>
+                <p class="skills__text">JavaScript</p>
+            </li>
+            <li class="skills__item">
+                <div class="circle">
+                    <div class="dotted"></div>
+                </div>
+                <p class="skills__text">Methodology BEM, Flexbox</p>
+            </li>
+            <li class="skills__item">
+                <div class="circle">
+                    <div class="dotted"></div>
+                </div>
+                <p class="skills__text">Adaptive and cross-browser layout</p>
+            </li>
+            <li class="skills__item">
+                <div class="circle">
+                    <div class="dotted"></div>
+                </div>
+                <p class="skills__text">Photoshop(work with the layout)</p>
+            </li>
+            <li class="skills__item">
+                <div class="circle">
+                    <div class="dotted"></div>
+                </div>
+                <p class="skills__text">Knowledge of assemblers and preprocessors (Webpuck, Gulp, SASS, SVG)</p>
+            </li>
+            <li class="skills__item">
+                <div class="circle">
+                    <div class="dotted"></div>
+                </div>
+                <p class="skills__text">Jira</p>
+            </li>
+        </ul>
+    </section>
+    <!-- ==============SECTION__SOFT-SKILLS=========== -->
+    <section class="soft" id="soft">
+        <div class="title">
+            <h2 class="anim-items anim-no-hide anim__show">Soft Skills</h2>
+        </div>
+        <div class="cnt__img">
+            <img style="width: 60px;" src="./assets/icons/soft-skills.png" alt="ed">
+        </div>
+        <div class="softCnt">
+            <ul class="soft__list anim-items items-show anim-no-hide">
+                <li class="soft__item">
+                    <div class="circle">
+                        <div class="dotted"></div>
+                    </div>
+                    <p class="soft__text">Attentive</p>
+                </li>
+                <li class="soft__item">
+                    <div class="circle">
+                        <div class="dotted"></div>
+                    </div>
+                    <p class="soft__text">Calm</p>
+                </li>
+                <li class="soft__item">
+                    <div class="circle">
+                        <div class="dotted"></div>
+                    </div>
+                    <p class="soft__text">Capable</p>
+                </li>
+                <li class="soft__item">
+                    <div class="circle">
+                        <div class="dotted"></div>
+                    </div>
+                    <p class="soft__text">Cheerful</p>
+                </li>
+            </ul>
+            <ul class="soft__list anim-items items-show anim-no-hide">
+                <li class="soft__item">
+                    <div class="circle">
+                        <div class="dotted"></div>
+                    </div>
+                    <p class="soft__text">Communicative</p>
+                </li>
+                <li class="soft__item">
+                    <div class="circle">
+                        <div class="dotted"></div>
+                    </div>
+                    <p class="soft__text">Cooperative</p>
+                </li>
+                <li class="soft__item">
+                    <div class="circle">
+                        <div class="dotted"></div>
+                    </div>
+                    <p class="soft__text">Determined</p>
+                </li>
+                <li class="soft__item">
+                    <div class="circle">
+                        <div class="dotted"></div>
+                    </div>
+                    <p class="soft__text">Eager to learn</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- ==============SECTION__INTERESTS============  -->
+    <section class="interests" id="int">
+        <div class="title">
+            <h2 class="anim-items anim-no-hide anim__show">Interests</h2>
+        </div>
+        <div class="cnt__img">
+            <img class="icons__img" src="./assets/icons/interests.png" alt="ed">
+        </div>
+        <ul class="interests__list">
+            <li class="interests__item music" data-title="MUSIC">
+                <img class="icons__img" src="./assets/icons/music-note.png" alt="" class="interests__img">
+            </li>
+            <li class="interests__item run" data-title="RUNNING">
+                <img class="icons__img" src="./assets/icons/running.png" alt="" class="interests__img">
+            </li>
+            <li class="interests__item football" data-title="FOOTBALL">
+                <img class="icons__img" src="./assets/icons/football.png" alt="" class="interests__img">
+            </li>
+            <li class="interests__item game" data-title="GAMES">
+                <img class="icons__img" src="./assets/icons/console.png" alt="" class="interests__img">
+            </li>
+            <li class="interests__item chill" data-title="CHILL">
+                <img class="icons__img" src="./assets/icons/sunbathing.png" alt="" class="interests__img">
+            </li>
+        </ul>
+    </section>
+    <!-- ==============SECTION__EXPERIENCE============  -->
+    <section class="experience" id="exp">
+        <div class="title">
+            <h2 class="anim-items anim-no-hide anim__show">Experience</h2>
+        </div>
+        <div class="cnt__img">
+            <img class="icons__img" src="./assets/icons/user-experience.png" alt="ed">
+        </div>
+        <ul class="experience__list anim-items items-show anim-no-hide">
+            <li class="experience__item">
+                <div class="circle">
+                    <div class="dotted"></div>
+                </div>
+                <p class="experience__text">Developing responsive, cross-browser webpages.</p>
+            </li>
+            <li class="experience__item">
+                <div class="circle">
+                    <div class="dotted"></div>
+                </div>
+                <p class="experience__text">Implementing HTML markup from Photoshop templates.</p>
+            </li>
+            <li class="experience__item">
+                <div class="circle">
+                    <div class="dotted"></div>
+                </div>
+                <p class="experience__text">Creating animations, transitions and other interactive UI things.</p>
+            </li>
+            <li class="experience__item">
+                <div class="circle">
+                    <div class="dotted"></div>
+                </div>
+                <p class="experience__text">Communication with customers.</p>
+            </li>
+        </ul>
+    </section>
+    <!-- ==============SECTION__PORTFOLIO============  -->
+    <section class="portfolio" id="por">
+        <div class="title">
+            <h2 class="anim-items anim-no-hide anim__show">Portfolio</h2>
+        </div>
+        <div class="cnt__img">
+            <img class="icons__img" src="./assets/icons/portfolio.png" alt="ed">
+        </div>
+        <div class="sim-slider">
+            <ul class="sim-slider-list">
+                <li><img src="http://pvbk.spb.ru/inc/slider/imgs/no-image.gif" alt="screen"></li> <!-- это экран -->
+                <li class="sim-slider-element"><img src="./assets/img/pr1.png" alt="0"></li>
+                <li class="sim-slider-element"><img src="./assets/img/pr2.png" alt="1"></li>
+                <li class="sim-slider-element"><img src="./assets/img/pr3.png" alt="2"></li>
+                <li class="sim-slider-element"><img src="./assets/img/pr4.png" alt="3"></li>
+                <li class="sim-slider-element"><img src="./assets/img/pr5.png" alt="4"></li>
+                <li class="sim-slider-element"><img src="./assets/img/pr6.png" alt="5"></li>
+            </ul>
+            <div class="sim-slider-arrow-left"></div>
+            <div class="sim-slider-arrow-right"></div>
+            <div class="sim-slider-dots"></div>
+        </div>
+        <ul class="portfolio__list">
+            <li class="portfolio__item">
+                <div class="por__img">
+                    <img src="./assets/img/leulo.png" alt="leulo">
+                </div>
+                <h4 class="por__title">Leulo</h4>
+                <div class="anim-items anim-no-hide">
+                    <p class="por__text items-show">Landing page designed for Leulo company, used React.js. I personally
+                        communicated
+                        with the
+                        customer and the first version of the site was provided within a week. At the moment it is being
+                        finalized.</p>
+                </div>
+                <div class="cntLinks">
+                    <div class="por__web">
+                        <a href="https://alexsavchuk95.github.io/LeuloProjectv2.0/#/" target="blank">
+                            <img src="./assets/icons/web.png" alt="web">
+                        </a>
+                    </div>
+                    <div class="por__git">
+                        <a href="https://github.com/Alexsavchuk95/LeuloProjectv2.0" target="blank">
+                            <img src="./assets/icons/github.png" alt="git">
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="portfolio__item">
+                <div class="por__img por__img-width">
+                    <img src="./assets/img/goit.png" alt="goit">
+                </div>
+                <h4 class="por__title">Goit</h4>
+                <div class="anim-items anim-no-hide">
+                    <p class="por__text items-show">Landing page designed for GoIt, used HTML/CSS. Project after
+                        completion of the
+                        stage of the course for HTML/CSS. Information page for students who want to be a project
+                        manager.
+                    </p>
+                </div>
+                <div class="cntLinks">
+                    <div class="por__web">
+                        <a href="https://alexsavchuk95.github.io/project/" target="blank">
+                            <img src="./assets/icons/web.png" alt="web">
+                        </a>
+                    </div>
+                    <div class="por__git">
+                        <a href="https://github.com/Alexsavchuk95/project" target="blank">
+                            <img src="./assets/icons/github.png" alt="git">
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="portfolio__item">
+                <div class="por__img">
+                    <svg class="por__icon">
+                        <use xlink:href="assets/svg/sprite.svg#wallet"></use>
+                    </svg>
+                </div>
+                <h4 class="por__title">Wallet</h4>
+                <div class="anim-items anim-no-hide">
+                    <p class="por__text items-show">The Wallet app was developed by the whole thread. 11 people took
+                        part in it. My
+                        task was to implement a diagram showing the use of finance. Used React.js with Node.js.</p>
+                </div>
+                <div class="cntLinks">
+                    <div class="por__web">
+                        <a href="https://app-wallet-14.herokuapp.com/#/diagram" target="blank">
+                            <img src="./assets/icons/web.png" alt="web">
+                        </a>
+                    </div>
+                    <div class="por__git">
+                        <a href="https://github.com/VitaliiKalinbet/wallet_app_frontend" target="blank">
+                            <img src="./assets/icons/github.png" alt="git">
+                        </a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <!-- ============SECTION__CONTACT================ -->
+    <section class="contact" id="cont">
+        <div class="title">
+            <h2 class="anim-items anim-no-hide anim__show">Contact me</h2>
+        </div>
+        <div class="cnt__img">
+            <img class="icons__img" src="./assets/icons/mail-send.png" alt="ed">
+        </div>
+        <div class="contactCnt">
+            <div class="contact__form">
+                <form onsubmit="return postToGoogle();" method="POST" id="form">
+                    <div>
+                        <input name="entry.876797837" id="mail" required minlength="10" placeholder="Email*">
+                    </div>
+                    <div>
+                        <input name="entry.1414529210" id="name" required minlength="4" placeholder="Name*">
+                    </div>
+                    <div>
+                        <input name="entry.361383068" id="phone" required minlength="6" placeholder="Phone*">
+                    </div>
+                    <div>
+                        <input name="entry.719473745" id="sugg" required minlength="10" placeholder="Suggestions*">
+                    </div>
+                    <div>
+                        <button type="submit" id="sumbit" class="contact__sumbit">Send</button>
+                    </div>
+                </form>
+            </div>
+            <div class="contact__map">
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/main.js"></script>
+    <script src="./js/animation.js"></script>
+    <script>
+        function postToGoogle() {
+            var field1 = $("#mail").val();
+            var field2 = $("#name").val();
+            var field3 = $("#phone").val();
+            var field4 = $("#sugg").val();
+
+            $.ajax({
+                url: "https://docs.google.com/forms/d/1Y_yXXEGHiy27bdvEew2471EFgxcUYON3crDx5aT5BxU/formResponse?",
+                data: { "entry.876797837": field1, "entry.1414529210": field2, "entry.361383068": field3, "entry.719473745": field4 },
+                type: "POST",
+                dataType: "xml",
+                success: function (d) {
+                },
+                error: function (x, y, z) {
+                    window.location.reload(0.5);
+                }
+            });
+            return false;
+        }
+    </script>
+    <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMcCBLw6A7034Co7zMb53st841InyUa-w&callback=initMap">
+        </script>
+</body>
+
+</html>
