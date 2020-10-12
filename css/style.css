@@ -251,6 +251,10 @@ h1 {
     margin-bottom: 14px;
 }
 
+.list__text {
+    color: #7b7b7b;
+}
+
 .list__item:last-child {
     margin-bottom: 20px;
 }
