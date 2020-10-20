@@ -166,7 +166,6 @@ nav {
 
 .list-mobile{
     z-index: 2;
-    display: none;
     height: 100vh;
     position: absolute;
     padding: 100px 10px;
@@ -175,6 +174,9 @@ nav {
     width: 200px;
     background-color: #272827 ;
     box-shadow: 5px 0 5px 0px #333;
+    transform: translate(-100%,0px);
+    opacity: 0;
+    transition: all 1.5s ease 0s;
 }
 
 .item-mobile {
@@ -204,7 +206,8 @@ nav {
 }
 
 .list-mobile--active {
-    display: block;
+    transform: translate(0px,0px);
+    opacity: 1;
 }
 
 
@@ -297,6 +300,7 @@ h1 {
 
 .cont__link {
     padding: 14px;
+    height: 44px;
     color: #333;
     letter-spacing: 0.3rem;
     font-weight: 900;
@@ -447,6 +451,7 @@ h2 {
 .soft__list {
     display: flex;
     max-width: 300px;
+    height: 244px;
     padding: 10px;
     border-radius: 20px;
     color: #c7d1ca;
