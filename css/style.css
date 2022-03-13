@@ -45,6 +45,7 @@ button:active, button:focus, input {
 
 nav {
     position: fixed;
+	z-index: 100;
 }
 
 
